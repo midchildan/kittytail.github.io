@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    theme.url = "github:kittytail/kittytail.github.io/theme/type-on-strap";
+    theme.url = "github:midchildan/kittytail.github.io/init/theme/type-on-strap";
     flake-parts = {
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
